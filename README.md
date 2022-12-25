@@ -1,14 +1,14 @@
 # Anomaly detection using an LSTM Variational Autoencoder
 
 # Table of Contents
-1. [What is a LSTM VAE ?](#introduction)
+1. [What is an LSTM VAE ?](#introduction)
 2. [Dataset](#Dataset)
 3. [Metrics](#Metrics)
 4. [Reconstruction](#second_approach)
 5. [Future Works](#future)
 6. [Requirements](#requirements)
 
-# What is a LSTM Variational Autoencoder ? <a name="introduction"></a>
+# What is an LSTM Variational Autoencoder ? <a name="introduction"></a>
 A variational autoencoder is divided into three parts, the encoder, the representation in latent space, and a decoder. The encoder is used to reduce the dimension of the input space so that it is possible to represent it in latent space with only a few parameters. This representation is done using a normal distribution with parameters $\mu$ and $\sigma$ to be estimated. With these parameters it is possible to sample and then use the decoder to try to recreate the input. This neural network is shown in the image below.
 
 <img src="./Images/neural_net.png?raw=true " width="100%"> 

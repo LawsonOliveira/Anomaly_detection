@@ -63,7 +63,7 @@ F1 Score: 0,957
 - Compare with a Transformer-Based Variational Autoencoder
 
 # Requirements  <a name="requirements"></a>
-- Pytorch, SkLearn, NumPy,Tqdm
+- Pytorch, SkLearn, NumPy, Tqdm
 - Pandas, Seaborn, Matplotlib
 
 
